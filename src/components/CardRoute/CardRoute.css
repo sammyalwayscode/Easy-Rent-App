@@ -1,0 +1,195 @@
+.RouteMainDiv {
+  height: 100vh;
+  width: 100%;
+  background-color: #f4f9fa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubRouteDiv {
+  width: 90%;
+  /* background-color: #fff; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ImgNameRoutMAin {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* background-color: green; */
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.RouteAgentImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 3px solid #0373ab;
+}
+
+.RouteAgentNameTime {
+  /* font-size: 18px; */
+  margin-left: 10px;
+}
+
+.RouteAgentName {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.RouteAgentTime {
+  font-weight: 600;
+  font-size: 13px;
+  /* color: gray; */
+}
+
+.FourImgRouteDiv {
+  width: 700px;
+  /* background-color: rgb(75, 0, 128); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.RouthFrImg {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(63, 36, 36, 0.12);
+  border-radius: 5px;
+}
+
+.LocationDiscriptinDiv {
+  width: 500px;
+  /* background-color: darkcyan; */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #000;
+  /* overflow-x: auto; */
+}
+
+.RouteLocationDiv {
+  width: 400px;
+  text-align: center;
+}
+
+.LocationTitle {
+  font-size: large;
+  font-weight: 600;
+  color: gray;
+}
+
+.LocationContent {
+  font-weight: 600;
+}
+
+.RouteDiscrDiv {
+  width: 400px;
+  text-align: center;
+}
+
+.DiscriptionTitle {
+  font-size: large;
+  font-weight: 600;
+  color: gray;
+}
+
+.DiscriptionContent {
+  font-weight: 400;
+}
+
+.RoutePriceDiv {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.PriceTitle {
+  font-size: large;
+  font-weight: 600;
+  color: gray;
+}
+
+.PriceContent {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.RouteMapDiv {
+  width: 400px;
+  /* text-align: center; */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.MapTitle {
+  font-size: large;
+  font-weight: 600;
+  color: gray;
+}
+
+hr {
+  width: 400px;
+}
+
+@media screen and (max-width: 700px) {
+  .RouteMainDiv {
+    height: 100%;
+  }
+
+  .SubRouteDiv {
+    width: 310px;
+  }
+
+  hr {
+    width: 240px;
+  }
+
+  .FourImgRouteDiv {
+    width: 310px;
+    flex-direction: column;
+  }
+
+  .RouthFrImg {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .RouteLocationDiv {
+    width: 290px;
+  }
+
+  .RouteDiscrDiv {
+    width: 290px;
+  }
+
+  .RoutePriceDiv {
+    width: 290px;
+  }
+
+  .RouteMapDiv {
+    width: 290px;
+  }
+
+  .ImgNameRoutMAin {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+  .siding {
+    display: none;
+  }
+}
+@media screen and (max-width: 2560px) {
+  .menu_bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .menu_bar {
+    display: block;
+  }
+}
+@media screen and (max-width: 2560px) {
+  .general_button {
+    display: none;
+  }
+}
+@media screen and (max-width: 760px) {
+  .general_button {
+    display: block;
+  }
+}
+@media screen and (max-width: 760px) {
+  .coding {
+    display: none;
+    background-color: red;
+  }
+}
+/* @media screen and (max-width: 760px) {
+  .now {
+    display: none;
+  }
+} */

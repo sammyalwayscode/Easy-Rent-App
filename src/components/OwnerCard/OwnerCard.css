@@ -1,0 +1,126 @@
+.HomeCardMain1 {
+  height: 380px;
+  width: 290px;
+  background-color: #fff;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(63, 36, 36, 0.12);
+  border-radius: 5px;
+}
+
+.SubHomeCard1 {
+  width: 270px;
+  display: flex;
+  /* background-color: darksalmon; */
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardAgentNameImg1 {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* background-color: green; */
+  margin-bottom: 5px;
+}
+
+.HomeAgentImg1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 3px solid #0373ab;
+}
+
+.HomeCardAgentNameTime1 {
+  margin-left: 10px;
+}
+
+.HomeAgentName1 {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.HomeAgentTime1 {
+  font-weight: 600;
+  font-size: smaller;
+}
+
+.HomeAgentHouse1 {
+  height: 150px;
+  width: 270px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(63, 36, 36, 0.12);
+}
+
+.HomeCardCommentLocationCost1 {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: darkcyan; */
+}
+
+.HomeCardComment1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardLocation1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardCost1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardButtondiv1 {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.EditDeletediv {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.DeleteDiv {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EditDiv {
+  height: 50px;
+  width: 50px;
+  background-color: darkblue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

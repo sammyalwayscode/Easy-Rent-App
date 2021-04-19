@@ -1,0 +1,31 @@
+.BoardHomeMain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: rebeccapurple; */
+}
+
+.BoardHomeSub {
+  width: 97%;
+  display: flex;
+  /* background-color: red; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeroImg {
+  height: 250px;
+  width: 100%;
+  background-image: url("../Images/sitR1.jpg");
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}

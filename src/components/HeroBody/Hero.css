@@ -1,0 +1,80 @@
+.MainHero {
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(to right, #00bfcc, #038fd4);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.SubHero {
+  width: 1000px;
+  /* background-color: gold; */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.InSerch {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.Help {
+  font-weight: bold;
+  color: #fff;
+}
+
+.ImgMain {
+  width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  .MainHero {
+    height: 210px;
+  }
+
+  .ImgMain {
+    width: 200px;
+  }
+
+  .InSerch {
+    font-size: large;
+  }
+
+  .Help {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .MainHero {
+    height: 130px;
+  }
+
+  .ImgMain {
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  .InSerch {
+    font-size: small;
+  }
+
+  .Help {
+    font-size: xx-small;
+  }
+}

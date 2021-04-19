@@ -1,0 +1,30 @@
+.MainHeaderDiv {
+  height: 60px;
+  width: 100%;
+  background: #0373ab;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubHeaderDiv {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .NavHold {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.NavHold {
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,158 @@
+.StoreStyle {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubStorestyle {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.GradientDiv2 {
+  height: 100px;
+  width: 100%;
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.CarddivContr3 {
+  width: 94%;
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardMain3 {
+  height: 330px;
+  width: 290px;
+  background-color: #fff;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(63, 36, 36, 0.12);
+  border-radius: 5px;
+}
+
+.SubHomeCard3 {
+  width: 270px;
+  display: flex;
+  /* background-color: darksalmon; */
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardAgentNameImg3 {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* background-color: green; */
+  margin-bottom: 5px;
+}
+
+.HomeAgentImg3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 3px solid #0373ab;
+}
+
+.HomeCardAgentNameTime3 {
+  margin-left: 10px;
+}
+
+.HomeAgentName3 {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.HomeAgentTime3 {
+  font-weight: 600;
+  font-size: smaller;
+}
+
+.HomeAgentHouse3 {
+  height: 150px;
+  width: 270px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(63, 36, 36, 0.12);
+}
+
+.HomeCardCommentLocationCost3 {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: darkcyan; */
+}
+
+.HomeCardComment3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardLocation3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardCost3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardButtondiv3 {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .HomeCardMain3 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .CarddivContr3 {
+    width: 310px;
+  }
+}

@@ -1,0 +1,64 @@
+.GeneralLoginDiv1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../Images/aroom.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubGeneralLoginDiv1 {
+  width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContentHold1 {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  /* flex-flow: column wrap; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+
+/* .SubGeneralLoginDiv::after{
+  content: '';
+  position: absolute;
+  top: 77px;
+  left: 380px;
+  right: 380px;
+  bottom: 77px;
+  border-radius: 8px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1)  15%, transparent 50%, transparent 85%,  rgba(255, 255, 255, 0.3) 100%   );
+} */
+
+.InputDiv1 {
+  width: 270px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .SubGeneralLoginDiv1 {
+    width: 300px;
+  }
+
+  .GeneralLoginDiv1 {
+    height: 100%;
+  }
+
+  .ContentHold1 {
+    margin: 0;
+  }
+}

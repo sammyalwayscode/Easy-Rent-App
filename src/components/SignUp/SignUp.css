@@ -1,0 +1,62 @@
+.SignInMain {
+  height: 100vh;
+  width: 100%;
+  background-color: #eff7fa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignInSub {
+  width: 1000px;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.ImgLoginCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+}
+
+.ImageLog {
+  width: 380px;
+  margin: 20px;
+}
+
+.InputDivCtrl {
+  width: "300px";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.AgentText {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .ImageLog {
+    width: 250px;
+  }
+
+  .InputDivCtrl {
+    margin: 0px;
+  }
+
+  .SignInSub {
+    background-color: #f3f8fa;
+  }
+}

@@ -1,0 +1,105 @@
+.HomeCardMain {
+  height: 330px;
+  width: 290px;
+  background-color: #fff;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(63, 36, 36, 0.12);
+  border-radius: 5px;
+}
+
+.SubHomeCard {
+  width: 270px;
+  display: flex;
+  /* background-color: darksalmon; */
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardAgentNameImg {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* background-color: green; */
+  margin-bottom: 5px;
+}
+
+.HomeAgentImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 3px solid #0373ab;
+}
+
+.HomeCardAgentNameTime {
+  margin-left: 10px;
+}
+
+.HomeAgentName {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.HomeAgentTime {
+  font-weight: 600;
+  font-size: smaller;
+}
+
+.HomeAgentHouse {
+  height: 150px;
+  width: 270px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(63, 36, 36, 0.12);
+}
+
+.HomeCardCommentLocationCost {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: darkcyan; */
+}
+
+.HomeCardComment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardLocation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardCost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeCardButtondiv {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .HomeCardMain {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

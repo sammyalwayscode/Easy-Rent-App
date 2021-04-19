@@ -1,0 +1,25 @@
+.SubBodyMain {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f9fa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ChildBody {
+  width: 1250px;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .ChildBody {
+    width: 310px;
+  }
+}

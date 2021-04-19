@@ -1,0 +1,28 @@
+.MatNavContSt {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  border-radius: 3px;
+  color: #000;
+}
+
+/* .Mattt {
+  color: #0373ab;
+  font-size: 30px;
+} */
+
+.MatNavContSt:hover {
+  background-color: #1a83ff;
+  color: #fff;
+}
+
+.Mattt:hover {
+  color: #fff;
+}
+
+.MatNavText {
+  font-size: large;
+  margin-left: 10px;
+}
